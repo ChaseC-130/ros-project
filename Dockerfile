@@ -1,4 +1,6 @@
-FROM ros:melodic-ros-base
-# install packages
+FROM ros:indigo-ros-base
+# install ros tutorials packages
 RUN apt-get update && apt-get install -y \
-    && rm -rf /var/lib/opt/lists
+    ros-indigo-ros-tutorials \
+    ros-indigo-common-tutorials \
+    && rm -rf /var/lib/apt/lists/
