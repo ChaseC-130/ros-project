@@ -2,10 +2,11 @@
 
 <h2>Overview</h2>
 This project will spin up a total of 4 docker containers.<br />
-*  Container one is the master roscore  
-*  Container two is a simple publishing node   
-*  Container three is a simple listening node  
-*  Container four is a gitlab image that will listen for changes to this repository  
+1. Container one is the master roscore  
+2. Container two is a simple publishing node   
+3. Container three is a simple listening node  
+4. Container four is a gitlab image that will listen for changes to this repository  
+
 
 
 <h2>Installation</h2>
