@@ -31,12 +31,12 @@ To verify that the Ros nodes are communicating succesfully, you can inspect the 
 showing that it is receiving messages from the publisher node. This can be done
 by executing "docker-compose logs listener"
 This should yield messages showing the following:
-![Example](img/https://imgur.com/T37z9Td)
+![Imgur](https://i.imgur.com/T37z9Td.png)
 
 Additionally, you can push changes to this repository, editting any of the code. 
 When this is done, you can see that the fourth container, running the gitlab
-CI container will update the changes:
-![Example2](img/https://imgur.com/55dfBw8)
+container will update the changes:
+![Imgur](https://i.imgur.com/55dfBw8.png)
 
 
 ##Resources
