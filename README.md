@@ -1,21 +1,21 @@
 <h1>Ros-Project</h1>
 
 <h2>Overview</h2>
-This project will spin up a total of 4 docker containers.
-* Container one is the master roscore
-* Container two is a simple publishing node 
-* Container three is a simple listening node
-* Container four is a gitlab image that will listen for changes to this repository
+This project will spin up a total of 4 docker containers.<br />
+* Container one is the master roscore  
+* Container two is a simple publishing node   
+* Container three is a simple listening node  
+* Container four is a gitlab image that will listen for changes to this repository  
 
 
 <h2>Installation</h2>
 This project was built and tested in Ubuntu 18.04.3 LTS bionic
 
 The packages that were installed on this instance are as follows:
-*  ROS Melodic (http://wiki.ros.org/melodic/Installation/Ubuntu)
-*  Docker version 19.03.6
-*  Docker-compose version 1.17.1
-*  Gitlab-runner version 12.7.1
+*  ROS Melodic (http://wiki.ros.org/melodic/Installation/Ubuntu)  
+*  Docker version 19.03.6  
+*  Docker-compose version 1.17.1  
+*  Gitlab-runner version 12.7.1  
 
 
 <h2>Information</h2>
