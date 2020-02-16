@@ -31,5 +31,4 @@ services:
         external_url 'https://gitlab.example.com'
     ports:
       - '80:80'
-      - '443:443'
-      - '8001:8001' 
+      - '443:443' 
