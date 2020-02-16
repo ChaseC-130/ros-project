@@ -26,8 +26,8 @@ The packages that were installed on this instance are as follows:
 
 <h2>Information</h2>
 Included in this repository is the actual package created under catkin_ws
-This repository should require everything necessary to get up and running assuming
-it's executed on an environment in which has the above installations
+This repository should contain everything necessary for testing outside
+of the above listed installations.
 
 <h2>Instructions</h2>
 To test this repository, one must simple go to the directory /project and
