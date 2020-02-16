@@ -1,6 +1,6 @@
-#Ros-Project#
+<h1>Ros-Project</h1>
 
-##Overview
+<h2>Overview</h2>
 This project will spin up a total of 4 docker containers.
 * Container one is the master roscore
 * Container two is a simple publishing node 
@@ -8,7 +8,7 @@ This project will spin up a total of 4 docker containers.
 * Container four is a gitlab image that will listen for changes to this repository
 
 
-##Installation
+<h2>Installation</h2>
 This project was built and tested in Ubuntu 18.04.3 LTS bionic
 
 The packages that were installed on this instance are as follows:
@@ -18,12 +18,12 @@ The packages that were installed on this instance are as follows:
 *  Gitlab-runner version 12.7.1
 
 
-##Information
+<h2>Information</h2>
 Included in this repository is the actual package created under catkin_ws
 This repository should require everything necessary to get up and running assuming
 it's executed on an environment in which has the above installations
 
-##Instructions
+<h2>Instructions</h2>
 To test this repository, one must simple go to the directory /project and
 execute "docker-compose up -d"
 
@@ -39,6 +39,6 @@ container will update the changes:
 ![Imgur](https://i.imgur.com/55dfBw8.png)
 
 
-##Resources
-This project was created by: Chase Cargill
+<h2>Resources</h2>
+Author: Chase Cargill
 
