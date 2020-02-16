@@ -1,10 +1,14 @@
 <h1>Ros-Project</h1>
 
 <h2>Overview</h2>
-This project will spin up a total of 4 docker containers.<br />
+This project will spin up a total of 4 docker containers.  
+
 1. Container one is the master roscore  
+
 2. Container two is a simple publishing node   
+
 3. Container three is a simple listening node  
+
 4. Container four is a gitlab image that will listen for changes to this repository  
 
 
