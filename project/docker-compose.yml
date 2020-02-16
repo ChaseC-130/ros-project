@@ -21,3 +21,15 @@ services:
       - "ROS_HOSTNAME=listener"
       - "ROS_MASTER_URI=http://master:11311"
     command: rosrun roscpp_tutorials listener
+
+  web:
+    image: 'gitlab/gitlab-ce:latest'
+    restart: always
+    hostname: 'https://gitlab.com/Snip130/ros-project'
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        external_url 'https://gitlab.example.com'
+    ports:
+      - '80:80'
+      - '443:443'
+      - '8001:8001' 
